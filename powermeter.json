@@ -1,0 +1,23 @@
+{
+ "event": "Jack2015ScienceProject",
+ "url": "https://gbw-ns.servicebus.windows.net/ehdevices/messages",
+ "requestType": "POST",
+ "json": {
+	 
+ "organization": "{{org}}",
+ "displayname": "{{dn}}",
+ "V_Solar": "{{vs}}",
+ "I_Solar": "{{is}}",
+ "P_Solar": "{{ps}}",
+ "V_Wind": "{{vw}}",
+ "I_Wind": "{{iw}}",
+ "P_Wind": "{{pw}}",
+ "timecreated": "{{SPARK_PUBLISHED_AT}}",
+ "guid":  "{{SPARK_CORE_ID}}"
+},
+ "azure_sas_token": {
+ "key_name": "D1",
+ "key": "7TAN8NiVqbAzxXYZv0jMRO7U+/CmkP1EqkYokYWFwwU="
+ },
+ "mydevices": true
+}
