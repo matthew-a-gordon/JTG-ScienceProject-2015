@@ -1,9 +1,13 @@
+// JSON file to define the particle webhook for data logging to Azure
+// Usage: particle webhook powermeter.json
+// key_name and key are pasted from Azure Event Hub configuration
+
 {
  "event": "Jack2015ScienceProject",
  "url": "https://gbw-ns.servicebus.windows.net/ehdevices/messages",
  "requestType": "POST",
  "json": {
-	 
+
  "organization": "{{org}}",
  "displayname": "{{dn}}",
  "V_Solar": "{{vs}}",
